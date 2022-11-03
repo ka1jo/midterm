@@ -1,0 +1,202 @@
+body{
+    width: 0px auto;
+    margin: 0px;
+    
+}
+.navbar{
+    width: 100%;
+    float: left;
+    min-height: 70px;
+
+}
+.logo{
+    padding: 15px 0px;
+    width: 20%;
+    float: left;
+    min-height: inherit;
+    #F4F5F7
+}
+.menu{
+    width: 60%;
+    float: left;
+    min-height: inherit;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+}
+.country{
+    width: 20%;
+    float: left;
+    min-height: 50px;
+    background: #253476;
+    position: relative;
+    color: white;
+}
+.menu ul{
+ padding: 0px;
+ margin: 0px;
+ float: left;
+ padding-right: 90px;
+}
+.menu ul :hover{
+    cursor: pointer;
+}
+.menu ul li{
+    float: left;
+    list-style-type: none;
+    padding: 0 10px;
+    margin: 0 5px;
+}
+.country p{
+    padding: 10px 12px;
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.menu ul li:nth-child(3n+3){
+    border-bottom: 2px solid green;
+    margin-bottom: -2px;
+}
+
+.tt{
+    width: 100%;
+    min-height: 20px;
+    background: #F4F5F7;
+    float: left;
+}
+.line{
+    padding: -90px 100px 150px  05px;
+    border-bottom: 2px solid grey;
+}
+.back{
+    width: 100%;
+    height: 215px;
+    background: #F4F5F7;
+}
+img{
+    padding-top: 0px;
+    float: left;
+}
+.abc{
+    padding-top: 20px;
+}
+.tx{
+    float: left;
+    width: 40%;
+    min-height: 350px;
+}
+.tx h1{
+    font-family: 'Zilla Slab';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 43px;
+padding: 20px 0px 50px 55px;
+}
+h3{
+    font-family: 'Zilla Slab';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+padding: 25px 0px 0px 55px;
+}
+h4{
+    padding: 40px 0px 0px 55px;
+}
+h3 span:last-child {
+    padding-left: 15px;
+    color: green;
+  }
+.tx .green{
+    color: green;
+  }
+i{
+padding-left: 10px;
+  }
+.back p{
+    padding: 25px;
+    width: %;
+}
+h5{
+    font-size: 20px;
+    width: 40%;
+    text-align: block;
+}
+.textt{
+    float: left;
+    width: 40%;
+}
+.textt ul{
+    padding: 15px;
+    margin: 0px;
+}
+.textt ul li{
+    list-style-type: none;
+    font-family: 'Zilla Slab';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+}
+ul:first-child{
+    font-weight: 700;
+}
+.textt h1{
+font-size: 25px;
+padding-left: 15px;
+}
+.text2{
+    padding: 16px;
+    width: 100%;
+   padding-right: 15px;
+}
+.text2 ul li{
+list-style-type: none;
+}
+h6{
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.card{
+    width: 100%;
+    background: bisque;
+    min-height: 300px;
+}
+.card img{ 
+    float: left;
+    width: 50%;
+}
+.card_info {
+    float: left;
+    width: 50%;
+
+
+}
+
+.card_info h1{
+    font-family: 'Zilla Slab';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #3E3E3E;
+
+}
+
+.card_info p{
+    font-family: 'Zilla Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+/* or 21px */
+
+
+color: #858585;
+
+opacity: 0.8;
+width: 50%;
+}
